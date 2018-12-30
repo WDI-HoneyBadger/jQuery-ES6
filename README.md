@@ -27,7 +27,6 @@ We just learned about a few of the essential parts of ES6 (aka JS 2015), the new
   cool.
  
 ## jQuery Review (with ES6):
-We'll be needing jQuery soon, let's brush up a bit and 
 
 ### Starter:
 You are given an html, js, and css page.
