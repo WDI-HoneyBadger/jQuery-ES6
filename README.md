@@ -28,6 +28,9 @@ We just learned about a few of the essential parts of ES6 (aka JS 2015), the new
  
 ## jQuery Review (with ES6):
 
+![](https://media.giphy.com/media/wJC8YwmGMtApa/giphy.gif)
+
+
 ### Starter:
 You are given an html, js, and css page.
 
