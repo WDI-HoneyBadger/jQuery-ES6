@@ -1,5 +1,6 @@
 # jQuery Review With ES6!
 
+![](https://media.giphy.com/media/10bdAP4IOmoN7G/giphy.gif)
 
 ## But First - ES6 Summary:
 We just learned about a few of the essential parts of ES6 (aka JS 2015), the newer version of javascript that is wildly WILDLY popular.  In ES6 we learned about:
