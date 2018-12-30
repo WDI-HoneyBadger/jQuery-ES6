@@ -51,4 +51,33 @@ const transformers = [
 
 $(document).ready(function(){
   console.log('jQ connected!');
+
+  // function to filter transformers 
+  const filterTransformers = (transformerTeam) => {
+    return transformers.filter(transformer => transformer.team === transformerTeam)
+  }
+  // function to render one transformer
+  const renderTransformer = (transformer) => {
+    const $container = $('<div>');
+    const $h2 = $('<h2>').text(transformer.name) //.appendTo($container);
+    $container.append($h2)
+    const $img = $('<img>').attr('src', transformer.photo).appendTo($container);
+    const $ul = $('<ul>').appendTo($container);
+    const $form = $('<li>').text(transformer.form).appendTo($ul);
+    $('.display').append($container);
+  }
+
+  // Autobot event listener
+  $('.autobots').click(()=>{
+    $('.display').empty();
+    filterTransformers('Autobot').forEach(renderTransformer)
+  })
+
+  // decepticon event listener
+  $('.decepticons').click(() => {
+    $('.display').empty();
+    filterTransformers('Decepticon').forEach(renderTransformer)
+  })
+
+
 })
