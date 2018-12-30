@@ -54,6 +54,8 @@ Each rendered transformer should be:
 
 **IMPORTANT - This should all be done in ES6!!!**
 
+Be mindful about applying best practices when using ES6.  Using `const` and `let` purposefully, using one-line arrow functions when possible, etc.
+
 ## Bonus - Style with Flexbox
 Make that super cool app super pretty! Use flexbox to style the `display` div so the cards are laid out on a grid.  Make the cards `flexboxes` too!
 
